@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469914bf-167e-46b7-a142-7e672a695485" name="Default Changelist" comment="" />
+    <list default="true" id="469914bf-167e-46b7-a142-7e672a695485" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +16,14 @@
     <session id="1739394663">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,8 +58,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/thinkstats2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="696">
-                  <caret line="2187" column="9" lean-forward="true" selection-start-line="2187" selection-start-column="9" selection-end-line="2187" selection-end-column="9" />
+                <state relative-caret-position="449">
+                  <caret line="2371" column="8" selection-start-line="2371" selection-start-column="4" selection-end-line="2371" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#222#1" />
                     <element signature="e#273#641#1" />
@@ -406,7 +412,6 @@
                     <element signature="e#48464#48666#1" />
                     <element signature="e#48816#49198#0" />
                     <element signature="e#48816#49020#1" />
-                    <element signature="e#49225#51875#0" />
                     <element signature="e#49225#49323#1" />
                     <element signature="e#49385#49541#0" />
                     <element signature="e#49579#49747#0" />
@@ -416,8 +421,6 @@
                     <element signature="e#50055#50224#0" />
                     <element signature="e#50055#50147#1" />
                     <element signature="e#50260#50355#0" />
-                    <element signature="e#50411#51366#0" />
-                    <element signature="e#50411#51060#1" />
                     <element signature="e#51117#51192#0" />
                     <element signature="e#51410#51609#0" />
                     <element signature="e#51649#51875#0" />
@@ -463,9 +466,7 @@
                     <element signature="e#57741#57971#1" />
                     <element signature="e#58078#58428#0" />
                     <element signature="e#58078#58196#1" />
-                    <element signature="e#58476#58905#0" />
                     <element signature="e#58476#58693#1" />
-                    <element signature="e#58930#59256#0" />
                     <element signature="e#58930#59067#1" />
                     <element signature="e#59294#59542#0" />
                     <element signature="e#59294#59447#1" />
@@ -563,7 +564,7 @@
             <entry file="file://$PROJECT_DIR$/nothinkstats2.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+                  <caret line="55" selection-start-line="55" selection-end-line="55" />
                   <folding>
                     <element signature="e#438#893#0" />
                   </folding>
@@ -580,10 +581,10 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nothinkstats2_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="382">
+                <state relative-caret-position="421">
                   <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -597,14 +598,14 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/neverthinkstats2.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="e#0#37#0" expanded="true" />
-                    <marker date="1541694193994" expanded="true" signature="136:141" ph="..." />
+                    <marker date="1541694193975" expanded="true" signature="136:141" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -612,9 +613,7 @@
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/nsfg.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-585" />
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -628,6 +627,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pdf</find>
+      <find>Corr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -639,15 +647,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="293" />
-    <option name="width" value="1758" />
-    <option name="height" value="1045" />
+    <option name="x" value="159" />
+    <option name="width" value="1748" />
+    <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -659,7 +669,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,10 +778,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="293" y="0" width="1758" height="1045" extended-state="0" />
-    <editor active="true" />
+    <frame x="159" y="0" width="1748" height="1044" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10538506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105416425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -813,20 +821,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nothinkstats2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#438#893#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brfss.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nsfg.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neverthinkstats2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1541694193975" expanded="true" signature="136:141" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nothinkplot.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nsfg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nothinkstats2_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="421">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -834,20 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nothinkstats2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#438#893#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkstats2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="2187" column="9" lean-forward="true" selection-start-line="2187" selection-start-column="9" selection-end-line="2187" selection-end-column="9" />
+        <state relative-caret-position="449">
+          <caret line="2371" column="8" selection-start-line="2371" selection-start-column="4" selection-end-line="2371" selection-end-column="8" />
           <folding>
             <element signature="e#0#222#1" />
             <element signature="e#273#641#1" />
@@ -1200,7 +1217,6 @@
             <element signature="e#48464#48666#1" />
             <element signature="e#48816#49198#0" />
             <element signature="e#48816#49020#1" />
-            <element signature="e#49225#51875#0" />
             <element signature="e#49225#49323#1" />
             <element signature="e#49385#49541#0" />
             <element signature="e#49579#49747#0" />
@@ -1210,8 +1226,6 @@
             <element signature="e#50055#50224#0" />
             <element signature="e#50055#50147#1" />
             <element signature="e#50260#50355#0" />
-            <element signature="e#50411#51366#0" />
-            <element signature="e#50411#51060#1" />
             <element signature="e#51117#51192#0" />
             <element signature="e#51410#51609#0" />
             <element signature="e#51649#51875#0" />
@@ -1257,9 +1271,7 @@
             <element signature="e#57741#57971#1" />
             <element signature="e#58078#58428#0" />
             <element signature="e#58078#58196#1" />
-            <element signature="e#58476#58905#0" />
             <element signature="e#58476#58693#1" />
-            <element signature="e#58930#59256#0" />
             <element signature="e#58930#59067#1" />
             <element signature="e#59294#59542#0" />
             <element signature="e#59294#59447#1" />
@@ -1327,17 +1339,6 @@
             <element signature="e#69827#69957#0" />
             <element signature="e#69827#69912#1" />
             <element signature="e#69976#69980#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neverthinkstats2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <marker date="1541694193994" expanded="true" signature="136:141" ph="..." />
           </folding>
         </state>
       </provider>
