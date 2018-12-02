@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469914bf-167e-46b7-a142-7e672a695485" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AAPL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AAPLPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nothinkstats.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nothinkstats.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,52 +18,55 @@
     <session id="1739394663">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="py" value="16" />
+          <entry key="ipynb" value="1" />
+          <entry key="py" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1879" />
+          <entry key="py" value="3338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1879" />
+          <entry key="Python" value="3338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41053975">
+    <splitter split-orientation="horizontal" split-proportion="0.42875317">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/thinkstats2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
-                  <caret line="2367" column="17" selection-start-line="2367" selection-start-column="17" selection-end-line="2367" selection-end-column="17" />
+                <state relative-caret-position="3861">
+                  <caret line="2347" column="40" selection-start-line="2347" selection-start-column="40" selection-end-line="2347" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#222#1" />
                     <element signature="e#273#641#1" />
@@ -414,6 +419,7 @@
                     <element signature="e#48464#48666#1" />
                     <element signature="e#48816#49198#0" />
                     <element signature="e#48816#49020#1" />
+                    <element signature="e#49225#51875#0" />
                     <element signature="e#49225#49323#1" />
                     <element signature="e#49385#49541#0" />
                     <element signature="e#49579#49747#0" />
@@ -449,6 +455,7 @@
                     <element signature="e#54410#54539#1" />
                     <element signature="e#54606#54919#0" />
                     <element signature="e#54606#54846#1" />
+                    <element signature="e#54965#55324#0" />
                     <element signature="e#54965#55138#1" />
                     <element signature="e#55363#55537#1" />
                     <element signature="e#55678#55855#1" />
@@ -468,6 +475,7 @@
                     <element signature="e#57741#57971#1" />
                     <element signature="e#58078#58428#0" />
                     <element signature="e#58078#58196#1" />
+                    <element signature="e#58476#58905#0" />
                     <element signature="e#58476#58693#1" />
                     <element signature="e#58930#59067#1" />
                     <element signature="e#59294#59542#0" />
@@ -542,23 +550,9 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/populations.py">
+            <entry file="file://$PROJECT_DIR$/nsfg.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/thinkplot.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#201#238#0" expanded="true" />
-                  </folding>
-                </state>
+                <state relative-caret-position="-315" />
               </provider>
             </entry>
           </file>
@@ -574,55 +568,69 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/brfss.py">
-              <provider selected="true" editor-type-id="text-editor" />
+            <entry file="file://$PROJECT_DIR$/first.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-721" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/thinkplot.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-748">
+                  <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#201#238#0" expanded="true" />
+                    <element signature="e#2744#3266#0" />
+                  </folding>
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/nothinkstats2_test.py">
+            <entry file="file://$PROJECT_DIR$/populations.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+                <state relative-caret-position="210">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AAPL.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                   <folding>
-                    <element signature="e#0#18#0" expanded="true" />
+                    <element signature="e#0#37#0" expanded="true" />
+                    <marker date="1543436743460" expanded="true" signature="137:138" ph="..." />
+                    <marker date="1543436743460" expanded="true" signature="137:143" ph="..." />
+                    <marker date="1543436743460" expanded="true" signature="221:226" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/survival.py">
+            <entry file="file://$PROJECT_DIR$/AAPLPlot.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-720" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/nothinkplot.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/neverthinkstats2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="412">
+                  <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#37#0" expanded="true" />
-                    <marker date="1541694193975" expanded="true" signature="136:141" ph="..." />
+                    <marker date="1543439478790" expanded="true" signature="185:1655" ph="..." />
+                    <marker date="1543439478790" expanded="true" signature="1699:1700" ph="..." />
+                    <marker date="1543439478790" expanded="true" signature="1699:2544" ph="..." />
+                    <marker date="1543439478790" expanded="true" signature="1699:2548" ph="..." />
+                    <marker date="1543439478790" expanded="true" signature="2570:2575" ph="..." />
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/nsfg.py">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -640,6 +648,9 @@
     <findStrings>
       <find>pdf</find>
       <find>Corr</find>
+      <find>preplot</find>
+      <find>PrePlot</find>
+      <find>SUBPLOT_ROWS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -652,14 +663,16 @@
         <option value="$PROJECT_DIR$/nothinkstats2.py" />
         <option value="$PROJECT_DIR$/nothinkstats2_test.py" />
         <option value="$PROJECT_DIR$/neverthinkstats2.py" />
+        <option value="$PROJECT_DIR$/AAPL.py" />
+        <option value="$PROJECT_DIR$/AAPLPlot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="43" />
-    <option name="width" value="1748" />
-    <option name="height" value="1007" />
+    <option name="x" value="125" />
+    <option name="y" value="49" />
+    <option name="width" value="2026" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -667,7 +680,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -679,11 +691,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TheAlgorithmsPython" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -697,7 +710,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nothinkstats2_test">
+  <component name="RunManager" selected="Python.AAPLPlot">
+    <configuration name="AAPLPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nothinkstats" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AAPLPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="neverthinkstats2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="nothinkstats" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -765,9 +799,11 @@
       <item itemvalue="Python.nothinkstats2" />
       <item itemvalue="Python.nothinkstats2_test" />
       <item itemvalue="Python.neverthinkstats2" />
+      <item itemvalue="Python.AAPLPlot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AAPLPlot" />
         <item itemvalue="Python.nothinkstats2_test" />
         <item itemvalue="Python.neverthinkstats2" />
         <item itemvalue="Python.nothinkstats2" />
@@ -788,15 +824,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="43" width="1748" height="1007" extended-state="0" />
+    <frame x="125" y="49" width="2026" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.105416425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17844611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31898454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31591737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -815,10 +851,57 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/balance.csv" />
+    <entry file="file://$PROJECT_DIR$/nothinkstats2_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nothinkplot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neverthinkstats2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survival.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exponential distribution.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brfss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#201#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nothinkstats2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#438#893#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thinkstats2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="2367" column="17" selection-start-line="2367" selection-start-column="17" selection-end-line="2367" selection-end-column="17" />
+        <state relative-caret-position="3861">
+          <caret line="2347" column="40" selection-start-line="2347" selection-start-column="40" selection-end-line="2347" selection-end-column="40" />
           <folding>
             <element signature="e#0#222#1" />
             <element signature="e#273#641#1" />
@@ -1171,6 +1254,7 @@
             <element signature="e#48464#48666#1" />
             <element signature="e#48816#49198#0" />
             <element signature="e#48816#49020#1" />
+            <element signature="e#49225#51875#0" />
             <element signature="e#49225#49323#1" />
             <element signature="e#49385#49541#0" />
             <element signature="e#49579#49747#0" />
@@ -1206,6 +1290,7 @@
             <element signature="e#54410#54539#1" />
             <element signature="e#54606#54919#0" />
             <element signature="e#54606#54846#1" />
+            <element signature="e#54965#55324#0" />
             <element signature="e#54965#55138#1" />
             <element signature="e#55363#55537#1" />
             <element signature="e#55678#55855#1" />
@@ -1225,6 +1310,7 @@
             <element signature="e#57741#57971#1" />
             <element signature="e#58078#58428#0" />
             <element signature="e#58078#58196#1" />
+            <element signature="e#58476#58905#0" />
             <element signature="e#58476#58693#1" />
             <element signature="e#58930#59067#1" />
             <element signature="e#59294#59542#0" />
@@ -1297,6 +1383,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nsfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-721" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/populations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1304,59 +1400,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkplot.py">
+    <entry file="file://$PROJECT_DIR$/AAPL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#201#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nothinkstats2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#438#893#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brfss.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nothinkplot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neverthinkstats2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1541694193975" expanded="true" signature="136:141" ph="..." />
+            <marker date="1543436743460" expanded="true" signature="137:138" ph="..." />
+            <marker date="1543436743460" expanded="true" signature="137:143" ph="..." />
+            <marker date="1543436743460" expanded="true" signature="221:226" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nsfg.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nothinkstats2_test.py">
+    <entry file="file://$PROJECT_DIR$/thinkplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        <state relative-caret-position="-748">
+          <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#201#238#0" expanded="true" />
+            <element signature="e#2744#3266#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/survival.py">
+    <entry file="file://$PROJECT_DIR$/AAPLPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
+        <state relative-caret-position="412">
+          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1543439478790" expanded="true" signature="185:1655" ph="..." />
+            <marker date="1543439478790" expanded="true" signature="1699:1700" ph="..." />
+            <marker date="1543439478790" expanded="true" signature="1699:2544" ph="..." />
+            <marker date="1543439478790" expanded="true" signature="1699:2548" ph="..." />
+            <marker date="1543439478790" expanded="true" signature="2570:2575" ph="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
